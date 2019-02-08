@@ -46,7 +46,7 @@ In this tutorial, you'll learn how to do the following tasks within a workspace:
 
         liferay.workspace.docker.image.liferay=liferay/portal:7.1.1-ga2
 
-2.  Run the following command from your workspace's root folder:
+2.  Run the following command from your workspace's root folder: (In workspace Gradle plugin there is no createDockerContainer task ??)
 
         ./gradlew createDockerContainer
 
